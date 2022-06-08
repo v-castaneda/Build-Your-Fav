@@ -1,35 +1,31 @@
-* {
-    border: 1px solid gray;
-    border-color: black;
-  }
-  
-  /* Setting variables */
-  :root {
-    --div-height-small: 50px;
-    --div-height-large: 150px;
-  }
-  
-  /* Large screen settings */
-  @media (min-width: 800px) {
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 20px;
-    }
-  
-    .a {
-       min-height: 50px;
-       width: 100%;
-    }
-    
-    .b {
-      min-height: var(--div-height-large);
-      flex-grow: 4;
-    }
-    
-    .c {
-      min-height: var(--div-height-large);
-      flex-grow: 1;
-    }
-  }
- 
+.sitenav__logo{
+    display: inline-block;
+    width: 125px;
+    height: 24px;
+    background-image: url("https://www.addthis.com/dietsite-assets/images/nav/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 125px 24px;
+    background-position: 0 0;
+    text-indent: -10em;
+    margin-right: auto;
+    overflow: hidden;
+    -webkit-transition: none;
+    transition: none;
+    cursor: pointer;
+}
+
+.sitenav__container{
+    position: relative;
+    width: 100%;
+    max-width: 1270px;
+    padding: 0 10x;
+     padding-top: 0px;
+     padding-right: 10px;
+     padding-bottom: 0px;
+     padding-left: 10px;
+    margin: 0 auto;
+     margin-top: 0px;
+     margin-right: auto;
+     margin-bottom: 0px;
+     margin-left: auto;
+}
