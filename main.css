@@ -1,3 +1,30 @@
+.sitenav {
+    --textLinkColor: #1E1F44;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 70px;
+    z-index: 1;
+}
+
+.sitenav__container{
+    position: relative;
+    width: 100%;
+    max-width: 1270px;
+    padding: 0 10x;
+    margin: 0 auto;
+}
+
+.sitenav__content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 16px;
+    align-content: center;
+}
+
 .sitenav__logo{
     display: inline-block;
     width: 125px;
@@ -12,20 +39,4 @@
     -webkit-transition: none;
     transition: none;
     cursor: pointer;
-}
-
-.sitenav__container{
-    position: relative;
-    width: 100%;
-    max-width: 1270px;
-    padding: 0 10x;
-     padding-top: 0px;
-     padding-right: 10px;
-     padding-bottom: 0px;
-     padding-left: 10px;
-    margin: 0 auto;
-     margin-top: 0px;
-     margin-right: auto;
-     margin-bottom: 0px;
-     margin-left: auto;
 }
